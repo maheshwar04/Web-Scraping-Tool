@@ -22,7 +22,21 @@ This script scrapes **paragraphs** (`<p>` tags) from a given website and stores 
 
 ## 📌 Example Output (Terminal Preview)  
 
-✅ Connected to database: scraped_data.db  🗑️ Dropped existing table!  ✅ Page loaded successfully!  📜 Found 32 paragraphs!  ✅ 28 new paragraphs saved!  ⏳ Execution Time: 3.21 seconds  🔒 Database closed.  
+------------------------------------------------------------- <br>
+Connected to database: scraped_data.db <br>
+1.Fetching data from: https://maheshwar.tech ... <br>
+2.Page loaded successfully! <br>
+3.Found 2 paragraphs! <br>
+4.2 paragraphs saved to the database! <br>
+Database connection closed <br>
+------------------------------------------------------------- <br>
+--------------- Previewing saved paragraphs: ---------------- <br>
+I am a Java Developer, Web Developer, developing web applications and designing user interfaces. I am proficient 
+in Java, HTML, CSS, JavaScript
+
+© 2023 Maheshwar Nag. All rights reserved.
+
+--------------- Execution Time: 0.39 seconds----------------- <br>
 
 ## 🚀 Customization  
 
@@ -31,8 +45,6 @@ This script scrapes **paragraphs** (`<p>` tags) from a given website and stores 
 ## ❌ Issues & Fixes  
 
 | Issue | Fix |  
-
-|-----------------|-------------------|  
 
 | `requests.exceptions.ConnectionError` | Check internet / try different URL |  
 
