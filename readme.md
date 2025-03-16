@@ -8,7 +8,7 @@ This script scrapes **paragraphs** (`<p>` tags) from a given website and stores 
 
 1️⃣ Install dependencies: `pip install requests beautifulsoup4`  
 
-2️⃣ Run the script: `python scraper.py`  
+2️⃣ Run the script: `python website_scraper.py`  
 
 3️⃣ Verify stored data in SQLite: `sqlite3 scraped_data.db` then `SELECT * FROM scraped_content LIMIT 5;`  
 
@@ -40,7 +40,7 @@ in Java, HTML, CSS, JavaScript
 
 ## 🚀 Customization  
 
-- Change `URL` in `scraper.py` 
+- Change `URL` in `website_scraper.py` 
 
 ## ❌ Issues & Fixes  
 
